@@ -1,0 +1,40 @@
+{
+  "name": "tony",
+  "description": "The demo site for the official Chrome DevTools load performance tutorial.",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "url": "https://glitch.com/edit/#!/tony"
+  },
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "webpack",
+    "start": "npm run build && node server.js",
+    "develop": "npm run build && nodemon server.js"
+  },
+  "dependencies": {
+    "@material-ui/core": "1.2.0",
+    "babel": "^6.23.0",
+    "babel-core": "6.26.0",
+    "babel-loader": "7.1.2",
+    "babel-preset-react": "6.24.1",
+    "babel-runtime": "6.26.0",
+    "compression": "1.7.2",
+    "express": "4.15.4",
+    "html-webpack-plugin": "3.2.0",
+    "react": "16.3.2",
+    "react-dom": "16.4.0",
+    "react-router-dom": "4.3.1",
+    "webpack": "4.11.1"
+  },
+  "devDependencies": {
+    "@babel/runtime": "^7.18.3",
+    "copy-webpack-plugin": "4.5.1",
+    "file-loader": "1.1.11",
+    "nodemon": "1.17.5",
+    "webpack-cli": "3.0.2"
+  },
+  "engines": {
+    "node": "8.11.3"
+  }
+}
